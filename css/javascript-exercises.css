@@ -51,3 +51,16 @@ button:hover {
 #btnpanel div:not(:first-of-type) {
   margin-top: 10px;
 }
+
+
+.rotate {
+  transform: rotate(-20deg);
+}
+
+.hide {
+  display: none;
+}
+
+.fontStyle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

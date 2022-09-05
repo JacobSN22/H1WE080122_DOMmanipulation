@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Javascript Opgaver</title>
     <link rel="stylesheet" href="css/javascript-exercises.css" />
+    <script src="/js/script.js" defer></script>
 
   </head>
   <body>
@@ -23,7 +24,7 @@
 
         <h3>Header Level 3</h3>
 
-        <ol>
+        <ol id="myOl">
           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
           <li>Aliquam tincidunt mauris eu risus.</li>
           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -48,28 +49,28 @@
       </section>
       <section id="btnpanel">
         <div>
-          <button id="ex1" type="button">Klik her og udskift teksten i h1 med din egen tekst</button>
+          <button id="ex1" onclick="ex1()" type="button">Klik her og udskift teksten i h1 med din egen tekst</button>
         </div>
         <div>
-          <button id="ex2" type="button">Klik her og farv alle paragraffer røde</button>
+          <button id="ex2" onclick="ex2()" type="button">Klik her og farv alle paragraffer røde</button>
         </div>
         <div>
-          <button id="ex3" type="button">Klik her og rotér alle li tags</button>
+          <button id="ex3" onclick="ex3()" type="button">Klik her og rotér alle li tags</button>
         </div>
         <div>
-          <button id="ex4" type="button">Klik her og skjul alle h tags</button>
+          <button id="ex4" onclick="ex4()" type="button">Klik her og skjul alle h tags</button>
         </div>
         <div>
-          <button id="ex5" type="button">Klik her og skift typografi på links</button>
+          <button id="ex5" onclick="ex5()" type="button">Klik her og skift typografi på links</button>
         </div>
         <div>
-          <button id="ex6" type="button">Klik her og indsæt et nyt li element efter punkt 5</button>
+          <button id="ex6" onclick="ex6()" type="button">Klik her og indsæt et nyt li element efter punkt 5</button>
         </div>
         <div>
-          <button id="ex7" type="button">Klik her og skift farve på hver andet li tag</button>
+          <button id="ex7" onclick="ex7()" type="button">Klik her og skift farve på hver andet li tag</button>
         </div>
         <div>
-          <button id="ex8" type="button">Klik her og byt rundt på ol og ul elementerne</button>
+          <button id="ex8" onclick="ex8()" type="button">Klik her og byt rundt på ol og ul elementerne</button>
         </div>
         <div>
           <button id="ex9" type="button">Klik her og få li tags til at flyve ind fra venstre</button>
